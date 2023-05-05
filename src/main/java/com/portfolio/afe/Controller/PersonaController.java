@@ -44,8 +44,8 @@ public class PersonaController {
                                 @RequestParam("img") String nuevoImg){
     Persona persona = ipersonaService.findPersona(id);
     
-    persona.setNombre("Francisco+ +Enrique");
-    persona.setApellido("Araujo");
+    persona.setNombre("nuevoNombre");
+    persona.setApellido("nuevoApellido");
     persona.setImg(nuevoImg);
 
     

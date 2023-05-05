@@ -65,7 +65,7 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
-                                        <mainClass>com.portfolio.afe.Application</mainClass> 
+                                        <mainClass>com.portfolio.afe.AfeApplication</mainClass> 
 				</configuration>
 			</plugin>
 		</plugins>
